@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -64,23 +65,37 @@
         }
 
         @media screen and (max-width: 600px) {
-            .book {
-                width: auto;
-                border-radius: 0;
-            }
+    .book {
+        width: auto;
+        border-radius: 0;
+    }
 
-            .cover {
-                border-radius: 0;
-            }
+    .cover {
+        border-radius: 0;
+    }
 
-            .cover h1 {
-                font-size: 20px;
-            }
+    .cover h1 {
+        font-size: 20px; /* Ajuste de tamanho específico para o título principal na capa */
+    }
 
-            .page h2 {
-                text-align: center;
-            }
-        }
+    .page h2 {
+        text-align: center;
+    }
+
+    .page {
+        text-align: left; /* Alinha todo o texto à esquerda */
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        text-align: center; /* Centraliza todos os títulos */
+        font-size: inherit; /* Remove tamanhos de fonte específicos para títulos, utilizando o tamanho padrão */
+    }
+
+    p {
+        font-size: inherit; /* Garante que o tamanho da fonte do texto seja automático */
+    }
+}
+
     </style>
 </head>
 <body>
